@@ -1,0 +1,17 @@
+body{
+	background-color: #B6E2C9;
+}
+h1, h3, p{
+	color: #FFFFFF;
+	font-family: Helvetica;
+	text-align: center;
+}
+h1{
+	text-transform: uppercase;
+}
+h3{
+	font-style: italic;
+}
+a{
+	color: #FFFFFF;
+}
