@@ -1,0 +1,16 @@
+body {
+	background: #FFFFFF;
+	color: #000000;
+	font-family: Helvetica;
+	text-align: center;
+}
+h1 {
+	text-transform: uppercase;
+}
+a {
+	color: #000000;
+}
+nav a {
+	margin-top: 20px;
+	margin-right: 15px;
+}
