@@ -1,12 +1,15 @@
-body{
+body {
 	background-color: #B6E2C9;
 	color: #FFFFFF;
 	font-family: Helvetica;
 	text-align: center;
 }
-h1{
+h1 {
 	text-transform: uppercase;
 }
-a{
+a {
 	color: #FFFFFF;
+}
+nav a {
+	margin-right:10px;
 }
