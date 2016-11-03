@@ -6,8 +6,8 @@
 body {
 	background:#FFF;
 	color: #333131;
-	font-family: 'Open Sans', sans-serif;
 	text-align: center;
+	font-family: 'Open Sans', sans-serif;
 }
 h1 {
 	text-transform: uppercase;
@@ -32,4 +32,7 @@ nav a {
 	background-size: cover;
 	height: 550px;
 	padding: 0px;
+}
+#content{
+	text-align: left;
 }
