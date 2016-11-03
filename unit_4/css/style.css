@@ -1,5 +1,10 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
 body {
-	background: #DBD3CB;
+	background:#FFF;
 	color: #333131;
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
@@ -11,10 +16,20 @@ h1 {
 }
 nav a {
 	text-decoration: none;
+	text-align: center;
 	color: #333131;
 	margin-top: 20px;
 	margin-right: 32px;
 	border-bottom: 1px solid #333131;
 	font-family: 'Coda', cursive;
 	font-size: 16px;
+}
+#lander{
+	background:url(../images/collage5.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 550px;
+	padding: 0px;
 }
