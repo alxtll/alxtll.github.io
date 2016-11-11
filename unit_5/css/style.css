@@ -12,6 +12,9 @@ body {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 }
+nav{
+	background: #E8C66A;
+}
 nav a {
 	text-decoration: none;
 	text-align: center;
@@ -22,19 +25,31 @@ nav a {
 	font-family: 'Coda', sans-serif;
 	font-size: 16px;
 }
+header{
+	background:#FFED74;
+	background-size: cover;
+	height: 300px;
+	padding: 0px;
+}
 h1 {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 44px;
 	padding-top: 10px
 }
-#lander{
-	background:url(../images/collage5.JPG) no-repeat center center scroll;
-	background-size: cover;
-	height: 550px;
-	padding: 0px;
+h3 {
+	font-size: 16px;
+}
+footer {
+	background: #FF957E;
+	font-size: 13px;
+}
+#wrapper{
+		width: 960px;
+		margin: 0 auto;
 }
 #content{
+	background: #FFE2B8;
 	padding: 10px;
 	font-size: 16px;
 	line-height: 30px;
