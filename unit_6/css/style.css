@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+@import url('https://fonts.googleapis.com/css?family=Coda');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body {
+	background:#FFF;
+	color: #333131;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+nav{
+	background: white;
+}
+nav a {
+	text-decoration: none;
+	text-align: center;
+	color: #333131;
+	margin-top: 30px;
+	margin-right: 32px;
+	border-bottom: 1px solid #333131;
+	font-family: 'Coda', sans-serif;
+	font-size: 16px;
+}
+a:hover {
+	color: white;
+	background: black;
+}
+header{
+	background:url(../images/collage5.JPG) no-repeat center center scroll;
+	background-size: cover;
+	border: 1px solid black;
+	height: 550px;
+	padding: 0px;
+}
+h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 44px;
+	padding-top: 10px
+}
+h3 a{
+	text-decoration: none;
+	color: #333131;
+	font-size: 16px;
+}
+footer {
+	font-size: 13px;
+}
+#wrapper{
+		width: 960px;
+		margin: 0 auto;
+}
+#content{
+	background: white;
+	padding: 20px;
+	border: 1px black solid;
+	font-size: 16px;
+	line-height: 30px;
+}
+#collage{
+	padding: 20px;
+	float: left;
+	width: 25%;
+}
+#drawing{
+	padding: 20px;
+	float: left;
+	width: 25%;
+}
+#works{
+	padding: 20px;
+	float: left;
+	width: 25%;
+}
+#about{
+	padding:20px;
+	float: left;
+	width: 25%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
