@@ -65,6 +65,11 @@ footer {
 	border: 1px black solid;
 	font-size: 16px;
 	line-height: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #333131;
+	font-size: 16px;
+	font-family: 'Coda', sans-serif;
 }
 #collage{
 	padding: 20px;
