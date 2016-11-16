@@ -18,7 +18,7 @@ nav {
 }
 nav a {
 	text-decoration: none;
-	text-align: center;
+	text-align: left;
 	color: #333131;
 	margin-top: 30px;
 	margin-right: 32px;
@@ -62,7 +62,9 @@ footer {
 #content{
 	background: white;
 	padding: 20px;
-	border: 1px black solid;
+	border-left: 1px black solid;
+	border-right: 1px black solid;
+	border-bottom: 1px black solid;
 	font-size: 16px;
 	line-height: 30px;
 	text-decoration: none;
