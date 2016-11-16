@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
 @import url('https://fonts.googleapis.com/css?family=Coda');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
 
 *{
 	margin:0;
@@ -15,14 +16,15 @@ body {
 nav {
 	background: white;
 	margin-bottom: 10px;
+	float: left;
 }
 nav a {
 	text-decoration: none;
 	text-align: left;
 	color: #333131;
 	margin-top: 30px;
-	margin-right: 32px;
-	font-family: 'Coda', sans-serif;
+	margin-right: 40px;
+	font-family: 'Droid Sans Mono', sans-serif;
 	font-size: 16px;
 }
 a:hover {
@@ -38,6 +40,7 @@ header{
 	border-left: 1px solid black;
 	height: 550px;
 	padding: 0px;
+	clear: both;
 }
 h1 {
 	text-transform: uppercase;
@@ -50,10 +53,11 @@ a {
 	font-weight: bold;
 	color: #333131;
 	font-size: 16px;
-	font-family: 'Coda', sans-serif;
+	font-family: 'Droid Sans Mono', sans-serif;
 }
 footer {
 	font-size: 13px;
+	text-align: left;
 }
 #wrapper{
 		width: 960px;
@@ -66,12 +70,12 @@ footer {
 	border-right: 1px black solid;
 	border-bottom: 1px black solid;
 	font-size: 16px;
-	line-height: 30px;
+	line-height: 20px;
 	text-decoration: none;
 	font-weight: bold;
 	color: #333131;
 	font-size: 16px;
-	font-family: 'Coda', sans-serif;
+	font-family: 'Droid Sans Mono', sans-serif;
 }
 #collage{
 	padding: 20px;
