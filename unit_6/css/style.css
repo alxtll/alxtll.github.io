@@ -12,7 +12,7 @@ body {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 }
-nav{
+nav {
 	background: white;
 	margin-bottom: 10px;
 }
@@ -45,10 +45,12 @@ h1 {
 	font-size: 44px;
 	padding-top: 10px
 }
-a{
+a {
 	text-decoration: none;
+	font-weight: bold;
 	color: #333131;
 	font-size: 16px;
+	font-family: 'Coda', sans-serif;
 }
 footer {
 	font-size: 13px;
