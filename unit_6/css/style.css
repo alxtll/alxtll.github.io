@@ -15,8 +15,9 @@ body {
 }
 nav {
 	background: white;
-	margin-bottom: 10px;
+	margin: 10px;
 	float: left;
+	clear: both;
 }
 nav a {
 	text-decoration: none;
@@ -26,11 +27,6 @@ nav a {
 	margin-right: 40px;
 	font-family: 'Droid Sans Mono', sans-serif;
 	font-size: 16px;
-}
-a:hover {
-	color: white;
-	background: black;
-	font-style: italic;
 }
 header{
 	background:url(../images/collage5.jpg) no-repeat center center scroll;
@@ -48,12 +44,34 @@ h1 {
 	font-size: 44px;
 	padding-top: 10px
 }
+h2 {
+	font-size: 20px;
+	text-align: left;
+	padding: 10px;
+}
+h3 {
+	font-size: 13px;
+	text-align:left;
+}
 a {
 	text-decoration: none;
 	font-weight: bold;
 	color: #333131;
 	font-size: 16px;
 	font-family: 'Droid Sans Mono', sans-serif;
+}
+a:hover {
+	color: white;
+	background: black;
+	font-style: italic;
+}
+p:hover {
+	color: white;
+	background: black;
+	font-style: italic;
+}
+p {
+	margin: 1.5em;
 }
 footer {
 	font-size: 13px;
@@ -64,7 +82,6 @@ footer {
 		margin: 0 auto;
 }
 #content{
-	background: white;
 	padding: 20px;
 	border-left: 1px black solid;
 	border-right: 1px black solid;
@@ -77,25 +94,46 @@ footer {
 	font-size: 16px;
 	font-family: 'Droid Sans Mono', sans-serif;
 }
+#content img{
+	height: initial;
+	width: 100%;
+}
+#content a:hover{
+	color: white;
+	background: black;
+	font-style: italic;
+}
 #collage{
-	padding: 20px;
+	padding: 10px;
 	float: left;
 	width: 25%;
 }
 #drawing{
-	padding: 20px;
+	padding: 10px;
 	float: left;
 	width: 25%;
 }
 #works{
-	padding: 20px;
+	padding: 10px;
 	float: left;
 	width: 25%;
 }
 #about{
-	padding:20px;
+	padding: 10px;
 	float: left;
 	width: 25%;
+}
+#portfolio{
+	width: 960px;
+	border: 1px solid black;
+	padding: .5em;
+	margin: 1em;
+}
+#portfolio img{
+	float: left;
+	width: 20%;
+	margin: 1em;
+	height: auto;
 }
 .clearfix:after {
     visibility: hidden;
