@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
-@import url('https://fonts.googleapis.com/css?family=Coda');
-@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
 *{
@@ -12,15 +10,15 @@ body {
 	background:#FFF;
 	color: #333131;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open-Sans', sans-serif;
 }
 nav {
 	display:block;
 	background: white;
-	padding: 10px;
 	float: left;
 	clear: both;
 	font-size: 10px;
+	padding: 10px;
 }
 nav a {
 	text-decoration: none;
@@ -31,6 +29,7 @@ nav a {
 	font-family: 'Inconsolata', monospace;
 	font-size: 16px;
 	letter-spacing: .15em;
+	padding: 10px;
 }
 header{
 	background:url(../images/collage5.jpg) no-repeat center center scroll;
@@ -44,25 +43,27 @@ header{
 }
 h1 {
 	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 40px;
-	padding-top: 10px
+	font-size: 30px;
+	padding-top: 20px;
+	letter-spacing: .1em;
 }
 h2 {
+	margin: .5em;
 	font-size: 20px;
-	text-align: left;
-	padding: 10px;
+	font-weight: normal;
+	letter-spacing: .025em;
 }
 h3 {
-	font-size: 13px;
+	font-size: 14px;
 	text-align:left;
+	letter-spacing: .1em;
 }
 a {
 	text-decoration: none;
 	font-weight: bold;
 	color: #333131;
 	font-family: 'Inconsolata', monospace;
-	font-size: 14px;
+	font-size: 16px;
 	letter-spacing: .15em;
 }
 a:hover {
@@ -71,19 +72,16 @@ a:hover {
 	font-style: italic;
 	text-transform: lowercase;
 }
-p {
-	margin: 1.5em;
-}
 footer {
 	text-align: left;
 	letter-spacing: .15em;
+	font-size: 14px;
 	color: #333131;
 	font-family: 'Inconsolata', monospace;
-	font-size: 16px;
 	clear:both;
 }
 #wrapper{
-		width: 960px;
+		width: 90%;
 		margin: 0 auto;
 }
 #content{
@@ -101,6 +99,7 @@ footer {
 #content img{
 	height: initial;
 	width: 100%;
+	padding: .5em;
 }
 #content a:hover{
 	color: white;
@@ -128,7 +127,7 @@ footer {
 	width: 25%;
 }
 #portfolio{
-	width: 960px;
+	width: 90%;
 	border: 1px solid black;
 	padding: .5em;
 	margin: 1em;
