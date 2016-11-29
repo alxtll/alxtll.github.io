@@ -1,6 +1,6 @@
 body {
-	background-color: #B6E2C9;
-	color: #FFFFFF;
+	background: #FFFFFF;
+	color: #000000;
 	font-family: Helvetica;
 	text-align: center;
 }
@@ -8,7 +8,7 @@ h1 {
 	text-transform: uppercase;
 }
 a {
-	color: #FFFFFF;
+	color: #000000;
 }
 nav a {
 	margin-top: 20px;
