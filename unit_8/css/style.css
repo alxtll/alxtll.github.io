@@ -18,18 +18,18 @@ nav {
 	background: white;
 	float: left;
 	clear: both;
-	padding: .625em;
+	padding: .625em 1.5em .625em 0;
 }
 nav a {
 	text-decoration: none;
 	text-align: left;
 	color: #333131;
 	margin-top: 30px;
-	margin-right: 40px;
+	margin-right: 20px;
 	font-family: 'Inconsolata', monospace;
 	font-size: 1em;
 	letter-spacing: .15em;
-	padding: .625em;
+	padding: .625em 1.5em;
 }
 header{
 	background:url(../images/collage5.jpg) no-repeat center center scroll;
@@ -107,22 +107,7 @@ footer {
 	background: black;
 	font-style: italic;
 }
-#collage{
-	padding: .625em;
-	float: left;
-	width: 25%;
-}
-#drawing{
-	padding: .625em;
-	float: left;
-	width: 25%;
-}
-#works{
-	padding: .625em;
-	float: left;
-	width: 25%;
-}
-#about{
+#content a{
 	padding: .625em;
 	float: left;
 	width: 25%;
@@ -154,3 +139,4 @@ footer {
     clear: both;
     height: 0;
 }
+
